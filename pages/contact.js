@@ -4,7 +4,7 @@ const contact = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Want to add your Content?</h1>
-      <form className={styles.contactForm} netlify>
+      <form className={styles.contactForm} name='contact' netlify>
         <input
           className={styles.inputBox}
           type='text'
