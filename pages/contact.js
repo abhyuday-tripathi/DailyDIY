@@ -7,7 +7,7 @@ const contact = () => {
       <form
         className={styles.contactForm}
         name='contact'
-        action='https://formsubmit.co/abhyuday.tripathi@yahoo.com'
+        action='https://formsubmit.co/ae80e0e0833568a2b84859be52e5b5a4'
         method='POST'
       >
         <input
