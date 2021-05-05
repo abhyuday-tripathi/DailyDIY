@@ -4,7 +4,13 @@ const contact = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Want to add your Content?</h1>
-      <form className={styles.contactForm} name='contact' netlify>
+      <form
+        className={styles.contactForm}
+        name='contact'
+        data-netlify='true'
+        data-netlify-recaptcha='true'
+        method='POST'
+      >
         <input
           className={styles.inputBox}
           type='text'
