@@ -13,14 +13,14 @@ const contact = () => {
         />
         <input
           className={styles.inputBox}
-          type='text'
+          type='email'
           name='email'
           placeholder='Enter your Email'
         />
         <input
           className={styles.inputBox}
-          type='text'
-          name='name'
+          type='number'
+          name='phone'
           placeholder='Enter your Phone'
         />
         <button className={styles.btn} type='submit'>
