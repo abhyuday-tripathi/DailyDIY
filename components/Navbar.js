@@ -23,6 +23,11 @@ export default function Navbar() {
                 <a>Guides</a>
               </Link>
             </li>
+            <li>
+              <Link href='/contact'>
+                <a>Contact</a>
+              </Link>
+            </li>
             {!user && (
               <li onClick={login} className='btn'>
                 Login/Signup

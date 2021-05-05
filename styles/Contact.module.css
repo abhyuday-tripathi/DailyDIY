@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.contactForm {
+  flex-direction: column;
+  display: flex;
+}
+
+.inputBox {
+  margin: 10px;
+  padding: 0.2rem 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #166ae8;
+  background: none;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 7px;
+  margin-top: 5px;
+  border: none;
+  background: #166ae8;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 674px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .title {
+    font-size: 1rem;
+  }
+}

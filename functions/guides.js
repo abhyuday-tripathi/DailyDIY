@@ -1,8 +1,20 @@
 exports.handler = async (event, context) => {
   const guides = [
-    { title: 'Beat all Zelda Bosses Like a Boss', author: 'mario' },
-    { title: 'Mario Kart Shortcuts You Never Knew Existed', author: 'luigi' },
-    { title: 'Ultimate Street Fighter Guide', author: 'chun-li' },
+    {
+      title: 'Beat all Zelda Bosses Like a Boss',
+      author: 'mario',
+      contentText: 'test',
+    },
+    {
+      title: 'Mario Kart Shortcuts You Never Knew Existed',
+      author: 'luigi',
+      contentText: 'test',
+    },
+    {
+      title: 'Ultimate Street Fighter Guide',
+      author: 'chun-li',
+      contentText: 'test',
+    },
   ];
 
   if (context.clientContext.user) {
