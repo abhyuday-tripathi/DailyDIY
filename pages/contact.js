@@ -7,8 +7,7 @@ const contact = () => {
       <form
         className={styles.contactForm}
         name='contact'
-        data-netlify='true'
-        data-netlify-recaptcha='true'
+        action='https://formsubmit.co/abhyuday.tripathi@yahoo.com'
         method='POST'
       >
         <input
@@ -16,18 +15,21 @@ const contact = () => {
           type='text'
           name='name'
           placeholder='Enter your Name'
+          required
         />
         <input
           className={styles.inputBox}
           type='email'
           name='email'
           placeholder='Enter your Email'
+          required
         />
         <input
           className={styles.inputBox}
           type='number'
           name='phone'
           placeholder='Enter your Phone'
+          required
         />
         <button className={styles.btn} type='submit'>
           Submit
