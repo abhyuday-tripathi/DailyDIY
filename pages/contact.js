@@ -1,8 +1,12 @@
 import styles from '../styles/Contact.module.css';
+import Head from 'next/head';
 
 const contact = () => {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>DailyDIY - Contact</title>
+      </Head>
       <h1 className={styles.title}>Want to add your Content?</h1>
       <form
         className={styles.contactForm}

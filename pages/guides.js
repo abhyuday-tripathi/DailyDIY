@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import styles from '../styles/Guides.module.css';
 import AuthContext from '../stores/authContext';
+import Head from 'next/head';
 
 export default function Guides() {
   const { user, authReady, login } = useContext(AuthContext);
@@ -37,6 +38,9 @@ export default function Guides() {
 
   return (
     <div className={styles.guides}>
+      <Head>
+        <title>DailyDIY - Guides</title>
+      </Head>
       {!authReady && <div>Loading...</div>}
 
       {error && (
